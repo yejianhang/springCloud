@@ -1,0 +1,30 @@
+server:
+  port: 8002
+
+mybatis:
+  type-aliases-package: com.ye.springcloud.pojo
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+#spting 配置
+spring:
+  application:
+    name: springcloud-provider-dept
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db02?userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root123
+
+# Eureka配置：配置服务注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+# info配置
+info:
+  # 项目的名称
+  app.name: haust-springcloud
+  # 公司的名称
+  company.name: TCL

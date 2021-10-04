@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudproviderdepthystrix8001" />
+        <module name="springcloudproviderdept8001" />
+        <module name="springcloudereka7001" />
+        <module name="springcloudcomsumerdept80" />
+        <module name="springCloudapi" />
+        <module name="springcloudproviderdept8002" />
+        <module name="springcloudconsumerfdeptfeign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
